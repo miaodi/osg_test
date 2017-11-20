@@ -1,0 +1,65 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "/Users/miaodi/Desktop/osg_test/build",
+            "name": "FunWithShapesGUI",
+            "sourceDirectory": "/Users/miaodi/Desktop/osg_test",
+            "targets": [
+              {
+                "artifacts": [
+                  "/Users/miaodi/Desktop/osg_test/build/FunWithShapesGUI"
+                ],
+                "buildDirectory": "/Users/miaodi/Desktop/osg_test/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g   -std=gnu++11",
+                    "includePath": [
+                      {
+                        "path": "/Users/miaodi/Desktop/osg_test/build"
+                      },
+                      {
+                        "path": "/Users/miaodi/Desktop/osg_test"
+                      },
+                      {
+                        "path": "/usr/local/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "main.cpp",
+                      "NurbsSurface.cpp",
+                      "CommonFunctions.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "FunWithShapesGUI",
+                "linkLanguageFlags": "-g",
+                "linkLibraries": "/usr/local/lib/libosgDB.dylib /usr/local/lib/libosgGA.dylib /usr/local/lib/libosgUtil.dylib /usr/local/lib/libosgViewer.dylib /usr/local/lib/libosgText.dylib /usr/local/lib/libosg.dylib /usr/local/lib/libOpenThreads.dylib -framework OpenGL -framework OpenGL",
+                "linkerLanguage": "CXX",
+                "name": "FunWithShapesGUI",
+                "sourceDirectory": "/Users/miaodi/Desktop/osg_test",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.4638389155999185",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}

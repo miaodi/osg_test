@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/Users/miaodi/Desktop/osg_test/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I. -I../ -I/usr/local/include  -g   -std=gnu++11 -o CMakeFiles/FunWithShapesGUI.dir/main.cpp.o -c /Users/miaodi/Desktop/osg_test/main.cpp",
+  "file": "/Users/miaodi/Desktop/osg_test/main.cpp"
+},
+
+{
+  "directory": "/Users/miaodi/Desktop/osg_test/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I. -I../ -I/usr/local/include  -g   -std=gnu++11 -o CMakeFiles/FunWithShapesGUI.dir/NurbsSurface.cpp.o -c /Users/miaodi/Desktop/osg_test/NurbsSurface.cpp",
+  "file": "/Users/miaodi/Desktop/osg_test/NurbsSurface.cpp"
+},
+
+{
+  "directory": "/Users/miaodi/Desktop/osg_test/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I. -I../ -I/usr/local/include  -g   -std=gnu++11 -o CMakeFiles/FunWithShapesGUI.dir/CommonFunctions.cpp.o -c /Users/miaodi/Desktop/osg_test/CommonFunctions.cpp",
+  "file": "/Users/miaodi/Desktop/osg_test/CommonFunctions.cpp"
+}
+]
